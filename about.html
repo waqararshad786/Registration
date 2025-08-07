@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Bootstrap website</title>
+  </head>
+  <body>
+    <!-- navbar start -- -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Topics
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">TEchnology</a></li>
+                <li><a class="dropdown-item" href="#">Web development</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#">Support</a></li>
+                <li><a class="dropdown-item" href="#">Write for us</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="contact.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+          <div class="container d-flex justify-content-center align-items-center min-vh-100">
+            <div class="row col-lg-5 col-md-7 col-sm-10">
+                <div class="card shadow p-4">
+                    <h3 class="card-title text-center mb-4">Login</h3>
+                    <form>
+                        <!-- Email/Username Input -->
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Email address or Username</label>
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email or username" required>
+                        </div>
+    
+                        <!-- Password Input -->
+                        <div class="mb-3">
+                            <label for="inputPassword" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputPassword" placeholder="Enter your password" required>
+                        </div>
+    
+                        <!-- Remember Me Checkbox -->
+                        <div class="form-check mb-3">
+                            <input type="checkbox" class="form-check-input" id="rememberMe">
+                            <label class="form-check-label" for="rememberMe">Remember Me</label>
+                        </div>
+    
+                        <!-- Submit Button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+    
+                        <!-- Forgot Password Link -->
+                        <div class="mt-3 text-center">
+                            <a href="#" class="text-decoration-none">Forgot Password?</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        </div>
+      </div>
+    </nav>
+
+    <!-- first paragraph -->
+
+    <div class="container my-4">
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="c1.avif"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7 order-md-1">
+          <h2 class="featurette-heading">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="c2.avif"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div
+        class="row featurette d-flex justify-content-center align-items-center"
+      >
+        <div class="col-md-7">
+          <h2 class="featurette-heading">
+            First featurette heading.
+            <span class="text-muted">It’ll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Some great placeholder content for the first featurette here.
+            Imagine some exciting prose here.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+            src="c3.avif"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <footer class="container mt-5">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>
+        © 2017–2021 Company, Inc. · <a href="#">Privacy</a> ·
+        <a href="#">Terms</a>
+      </p>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
